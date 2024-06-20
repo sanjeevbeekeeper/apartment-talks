@@ -1,4 +1,11 @@
 {
+	"20 Jun 2024": {
+		"3:00 PM": {
+			"bugfix": {
+				"1": "Hidden all the other elements when printing. When you press 'Save as PDF' in the customize page on mobile, it acts like a regular printing and display all the elements. See issue #1"
+			}
+		}
+	},
 	"19 Jun 2024": {
 		"3:22 PM": {
 			"feat": {

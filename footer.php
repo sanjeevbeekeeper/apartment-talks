@@ -1,5 +1,5 @@
 </div>
-<nav class="pt-5 mt-5 text-center">
+<nav class="pt-5 mt-5 text-center d-print-none">
 	<div><a class="text-reset text-decoration-none" href="version-log.php">v1</a></div>
 	&copy; 2024, Beekeeper Design Studio 
 </nav>

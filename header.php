@@ -26,7 +26,7 @@
 	# 
 	# Beekeeper design studio - 20 Jun 2024, 9:22 AM
 	# Turn off if not needed
-	include 'template-parts/header/grid-guide.php';
+	// include 'template-parts/header/grid-guide.php';
 	# 
 	# Beekeeper design studio - 20 Jun 2024, 9:22 AM
 	# Full width nav

@@ -14,24 +14,26 @@ $version_log_json = file_get_contents("assets/json/version-log.json");
 $version_log_json_array = json_decode($version_log_json, true);
 ?>
 
-<?php foreach ($version_log_json_array as $key_date => $value_date_array): ?>
-	
-	<h2 class="fs-5 mb-3"><?php echo $key_date ?></h2>
-	<?php foreach ($value_date_array as $key_time => $value_time_array): ?>
-		
-		<?php foreach ($value_time_array as $key_cat => $value_cat_array): ?>
-			<div class="mb-2"><?php echo $key_time ?> <span class="badge text-bg-secondary"><?php echo $key_cat ?></span></div>
-
-			<ol>
-			<?php foreach ($value_cat_array as $value_items): ?>
-				<li><?php echo $value_items; ?></li>
-			<?php endforeach ?>
-			</ol>
-		
-		<?php endforeach ?>
-	
+<table class="table table-bordered">
+	<?php foreach ($version_log_json_array as $key_date => $value_date_array): ?>
+		<tr>
+			<td class="text-nowrap">
+				<h2 class="fs-5"><?php echo $key_date ?></h2>
+			</td>
+			<td>
+				<?php foreach ($value_date_array as $key_time => $value_time_array): ?>
+					<?php foreach ($value_time_array as $key_cat => $value_cat_array): ?>
+						<div class="mb-2"><?php echo $key_time ?> <span class="badge text-bg-secondary"><?php echo $key_cat ?></span></div>
+						<ol>
+						<?php foreach ($value_cat_array as $value_items): ?>
+							<li><?php echo $value_items; ?></li>
+						<?php endforeach ?>
+						</ol>
+					<?php endforeach ?>
+				<?php endforeach ?>
+			</td>
+		</tr>
 	<?php endforeach ?>
-
-<?php endforeach ?>
+</table>
 
 <?php include 'footer.php' ?>

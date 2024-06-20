@@ -4,7 +4,7 @@
 # Page title used on all the pages 
 function page_title($string) {
 	$string_replace = str_replace('-', ' ', $string); 
-	$title = "<h1 class='fs-3'>".ucfirst($string_replace)."</h1>";
+	$title = "<h1 class='fs-3 d-print-none'>".ucfirst($string_replace)."</h1>";
 	return $title;
 }
  ?>
