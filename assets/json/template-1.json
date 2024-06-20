@@ -1,0 +1,68 @@
+{
+    "global": {
+        "width": "413",
+        "height": "413",
+        "div-id": {
+            "0": "working_container",
+            "1": "divheight"
+        }
+    },
+    "layouts": {
+        "1": {
+            "content": {
+                "1": "<p style='text-align:justify'><strong>LEARN FLUENT ENGLISH</strong>, Personality training and Foreign Languages (Home Tuitions are also available). The teachers are here are well qualified and have cracked various competition exams like IELTS. Branches can be found all over Madurai. Contact: 123456789 or email at fluentenglish@learn.com</p>"
+            },
+            "div": [
+                {
+                    "class": "d-flex bg-white"
+                },
+                {
+                    "class": "p-2 pb-0 my-auto fs-4 lh-sm border-dark border-5",
+                    "style": "border-style:dotted;"
+                }
+            ]
+        },
+        "2": {
+            "content": {
+                "1": "<p style='text-align:center'><strong>LEARN FLUENT ENGLISH</strong></p>",
+                "2": "<p style='text-align:center'>Personality training and Foreign Languages. The teachers are here are well qualified and have cracked various competition exams like IELTS. Branches can be found all over Madurai.</p>",
+                "3": "<p style='text-align:center'><b>Contact: 123456789 / fluentenglish@learn.com</b></p>"
+            },
+            "logo": {
+                "src": "cat-c/ford",
+                "class": "mb-2",
+                "height": "70",
+                "cat": "A, B, C"
+            },
+            "div": [
+                {
+                    "class": "d-flex bg-white"
+                },
+                {
+                    "class": "p-2 my-auto fs-4 lh-sm text-center",
+                    "style":""
+                }
+            ]
+        },
+        "3": {
+            "content": {
+                "1": "<p>Learn fluent English, Personality training and Foreign Languages (Home Tuitions are also available). The teachers are here are well qualified and have cracked various competition exams like IELTS. Branches can be found all over Madurai. Contact: 123456789 or email at fluentenglish@learn.com</p>"
+            },
+            "logo": {
+                "src": "cat-a/starbucks",
+                "class": "mt-2 me-3 float-start",
+                "height": "80",
+                "cat": "A, B, D"
+            },
+            "div": [
+                {
+                    "class": "d-flex bg-white"
+                },
+                {
+                    "class": "p-2 my-auto fs-4",
+                    "style": "text-align:justify;"
+                }
+            ]
+        }
+    }
+}
