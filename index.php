@@ -5,6 +5,7 @@
 	<a class="text-decoration-none" href="sizes.php">Select the size</a><br>
 	<!-- <a class="text-decoration-none" href="image-resizer.php">Image Resizer</a><br> -->
 	<a class="text-decoration-none" href="logo-categories.php">Logo Categories</a><br>
+	<!-- <a class="text-decoration-none" href="settings.php">Settings</a><br> -->
 </div>
 
 <?php include 'footer.php' ?>

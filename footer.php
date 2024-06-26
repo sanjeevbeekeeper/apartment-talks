@@ -14,6 +14,7 @@ if ($get_current_url == 'customize'): ?>
 	<script src="assets/js/print-btn.js"></script>
 	<script src="assets/js/tinymce-customize.js"></script>
 	<script src="assets/js/get-the-div-height.js" async="async"></script>
+	<script src="assets/js/form-submit.js" async="async"></script>
 	<!-- Beekeeper Design Studio, 19 Jun 2024, 2:20 PM -->
 	<!-- turning off the online-check for now.  -->
 	<!-- If we needed we will turn it on in future -->
